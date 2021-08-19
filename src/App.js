@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+
+import Layout from "./components/Layout"
+// import SEO from "../components/seo"
+// Components
+import Header from "./components/Header"
+// import Work from "../components/Work"
+// import About from "../components/about"
+// import Skills from "../components/skills"
+// import Promotion from "../components/Promotion"
+// import Footer from "../components/Footer"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      {/* <SEO title="Sri Nikhil Racha" /> */}
+      <Header></Header>
+      {/* <Work></Work>
+    <About></About>
+    <Skills></Skills>
+    <Promotion></Promotion>
+    <Footer></Footer> */}
+    </Layout>
   );
 }
 
 export default App;
+
+
+
+
