@@ -3,7 +3,7 @@ import React from "react"
 
 
 
-const Skills = ({ }) => {
+const Skills = () => {
     const languages = ['JavaScript (ES6)', 'TypeScript', 'HTML', 'CSS/Sass', 'Python', 'SQL', 'R'];
     const Frameworks = ['React', 'Ionic', 'Node', 'Wordpress', 'Jekyll'];
     const tools = ['Bash', 'Git', 'Gulp', 'npm', 'Postman', 'Android Studio', 'Chrome DevTools'];
