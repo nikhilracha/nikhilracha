@@ -6,7 +6,7 @@ import Layout from "./components/Layout"
 import Header from "./components/Header"
 // import Work from "../components/Work"
 // import About from "../components/about"
-// import Skills from "../components/skills"
+import Skills from "./components/Skills"
 // import Promotion from "../components/Promotion"
 // import Footer from "../components/Footer"
 
@@ -15,9 +15,10 @@ function App() {
     <Layout>
       {/* <SEO title="Sri Nikhil Racha" /> */}
       <Header></Header>
+      <Skills></Skills>
       {/* <Work></Work>
     <About></About>
-    <Skills></Skills>
+
     <Promotion></Promotion>
     <Footer></Footer> */}
     </Layout>
