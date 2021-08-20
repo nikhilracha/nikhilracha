@@ -10,7 +10,6 @@ const Skills = ({ }) => {
 
     return (
         <>
-
             <section class="section skills">
                 <div class="section__title">Skills</div>
                 <div class="section__content">
